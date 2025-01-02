@@ -47,16 +47,16 @@ main .result .name {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
-main .temperature img {
+main .temprature img {
   width: 150px;
   filter: drop-shadow(0 10px 50px #000);
 }
-main .temperature figcaption {
-  font-size: 3rem;
+main .temprature figcaption {
+  font-size: 48px;
 }
-main .temperature .description {
+main .temprature .description {
   padding: 10px 0 30px;
 }
 main ul {
@@ -64,6 +64,7 @@ main ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+  margin-top: 30px;
 }
 main li {
   background-color: #f78a55;
@@ -75,7 +76,7 @@ main li {
   font-size: small;
 }
 main li i {
-  font-size: 2rem;
+  font-size: 32px;
   display: block !important;
   margin: 20px 0;
 }
